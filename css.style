@@ -1,0 +1,71 @@
+* {margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url('https://images.alphacoders.com/104/1043448.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.h11 {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    font-family: Unispace;
+    font-weight: 100;
+background: linear-gradient(rgba(0,0,0,0.50));
+    width: 80%; height: auto;
+    margin: 20px auto;
+
+}
+.h11 {
+    border-top: 2px;
+    border-left: 2px;
+    box-sizing: border-box;
+    border: 4px solid;
+
+    
+}
+
+.btn { 
+    font-family: "Mongolian Baiti";
+    font-size: 20px; 
+    font-weight: bold;
+    background:#CB4335;
+    padding: 10px;
+    border-radius: 15px;
+    color:#ECF0F1 ;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+     align-content: center;
+    align-items: center;
+    margin-left: 90%;
+
+}
+.btn:hover{
+    background-color:#641E16 ;
+}
+
+.container {
+    text-align: center;
+    
+}
+.image {
+    width: 100px; 
+    height: 100px; 
+    background-size: cover; 
+    animation: slideLeftToRight 30s ease-in-out forwards; 
+}
+
+@keyframes slideLeftToRight {
+    0% {
+        transform: translateX(-500%);
+    }
+    100% {
+        transform: translateX(395%);
+    }
+}
