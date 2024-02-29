@@ -4,7 +4,7 @@
 
 
 body {
-    background-image: url('https://images.alphacoders.com/104/1043448.jpg');
+    background-image: url('https://i.pinimg.com/564x/6e/da/25/6eda251c8069ca80231fac522127bbf4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -66,14 +66,16 @@ background: linear-gradient(rgba(0,0,0,0.50));
     width: 100px; 
     height: 100px; 
     background-size: cover; 
-    animation: slideLeftToRight 30s ease-in-out forwards; 
+    animation: slideLeftToRight 35s ease-in-out forwards; 
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 @keyframes slideLeftToRight {
     0% {
-        transform: translateX(-500%);
+        transform: translateY(500%);
     }
     100% {
-        transform: translateX(395%);
+        transform: translateY(50%);
     }
 }
